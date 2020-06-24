@@ -1,2 +1,2 @@
 # StringSearch
-A method that is able to find smaller strings within a longer string. The method checks whether the smaller string is found and then records its location based on the longer strings indices.
+A method that is able to find smaller strings within a longer string. The method checks whether the smaller string is found and then records its location based on the longer strings indices. The locations are stored in a HashMap. The key is the small string, and the value is a list of the locations. If the small string is not found, then the value will be an empty list; otherwise, a string describing the location will be added to the list (for example, "Indices 1 to 3").
